@@ -44,7 +44,7 @@ Those 20 pins are grouped into 3 I/O ports:
 - `PORTB`: D8 - D13
 - `PORTC`: A0 - A5
 
-![image](Pasted image 20260204115127.png)
+![image](Pasted%20image%2020260204115127.png)
 
 Each port contains **8 bits** where each bit corresponds to one actual physical pin. In the image above, those can be traced. Those are controlled using internal register, which can be accessed through so-called "AVR Programming" where work on the registers can be done directly, giving higher efficiency and speed. Those are showed in Microprocessors Lab Report.
 
@@ -56,7 +56,7 @@ However, since readings are not always perfect, and internal/external disturbanc
 
 > TTL is a hardware voltage standard that tells digital circuits how to interpret electrical signals as binary 0 and 1.
 
-![[Pasted image 20260228232841.png]]
+![image](Pasted%20image%2020260228232841.png)
 
 ### 2.3 LEDs and Current-limiting Resistors
 
@@ -76,7 +76,7 @@ Where,
 
 > *Note:* long leg of LED correspond to **+** while short to **-** . This tendency can be noted in many electronics components, but to double check, it is important to check the manufacturer's datasheet.
 
-![[Pasted image 20260301012301.png]]
+![image](Pasted%20image%2020260301012301.png)
 
 ### 2.4 Digital Timing and System Clock
 
@@ -142,7 +142,7 @@ Having enough background knowledge, simple system design can be sketched. One ha
 
 ### 3.1 Pin Mapping / Wiring
 
-![[Pasted image 20260301011725.png]]
+![image](Pasted%20image%2020260301011725.png)
 
 | Component | Connection                             | Type          |
 | --------- | -------------------------------------- | ------------- |
@@ -321,14 +321,14 @@ $$f = \frac{1}{0.7} = 1.43\,Hz$$
   delay(100);
 ```
 
-![[Pasted image 20260320115919.png]]
+![image](Pasted%20image%2020260320115919.png)
 
 ```cpp
   digitalWrite(LED1, LOW);
   delay(100);
 ```
 
-![[Pasted image 20260320120323.png]]
+![image](Pasted%20image%2020260320120323.png)
 
 ### 5.2 LED 2
 
@@ -337,14 +337,14 @@ $$f = \frac{1}{0.7} = 1.43\,Hz$$
   delay(200);
 ```
 
-![[Pasted image 20260320115813.png]]
+![image](Pasted%20image%2020260320115813.png)
 
 ```cpp
   digitalWrite(LED2, LOW);
   delay(200);
 ```
 
-![[Pasted image 20260320120304.png]]
+![image](Pasted%20image%2020260320120304.png)
 
 ### 5.3 LED 3
 
@@ -353,14 +353,14 @@ $$f = \frac{1}{0.7} = 1.43\,Hz$$
   delay(50); 
 ```
 
-![[Pasted image 20260320115628.png]]
+![image](Pasted%20image%2020260320115628.png)
 
 ```cpp
   digitalWrite(LED3, LOW);
   delay(50); 
 ```
 
-![[Pasted image 20260320120340.png]]
+![image](Pasted%20image%2020260320120340.png)
 
 
 ---
