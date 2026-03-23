@@ -18,7 +18,7 @@ In this lab, the objective was to read a joystick’s X/Y axes and convert them 
 ### 2.1 Digital vs Analog Signals
 
 Joystick module consists two potentiometers placed perpendicularly, motion of each represent one of two axes: X and Y (pins **VRX** and **VRY**). Additionally, it has one push button (**SW**) which behaves like a switch; however, in the scope of this lab, it was not used.
-![[Pasted image 20260302193950.png]]
+![image](images/Pasted%20image%2020260302193950.png)
 Potentiometers are electrical components that help to regulate the voltage going through them. At rest, those potentiometers placed at the middle position, meaning , they pass only half of the voltage coming.
 
 But voltage levels are not discrete and signals produced by those two potentiometers represent analog signal. In order for the Arduino to comprehend and understand the position of joystick, those analog signals need to be converted onto digital. This is done using ADC converter.
