@@ -44,7 +44,7 @@ Those 20 pins are grouped into 3 I/O ports:
 - `PORTB`: D8 - D13
 - `PORTC`: A0 - A5
 
-![[Pasted image 20260204115127.png]]
+![image](Pasted image 20260204115127.png)
 
 Each port contains **8 bits** where each bit corresponds to one actual physical pin. In the image above, those can be traced. Those are controlled using internal register, which can be accessed through so-called "AVR Programming" where work on the registers can be done directly, giving higher efficiency and speed. Those are showed in Microprocessors Lab Report.
 
