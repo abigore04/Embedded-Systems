@@ -172,7 +172,7 @@ Multiplexing is performed using **D1-D4** pins.
 ### 4.0 Code and System Diagram
 
 
-![image](images/RTC%20Game%20Reaction%20Time%20Flow-2026-03-13-221001.png]]
+![image](images/RTC%20Game%20Reaction%20Time%20Flow-2026-03-13-221001.png)
 
 
 ``` cpp title:"reactionGame.ino"
