@@ -2,7 +2,7 @@
 
 **Course:** ENCE 3608 – Introduction to Embedded Systems  
 **Instructor:** Dr. Alexz Farrall  
-**Lab Number & Title:** Lab 6 - Actuation and Control Systems  
+**Lab Number & Title:** Lab 6 - Reaction Game with Actuators 
 **Student Name:** Farid Ibadov  
 **Student ID:** 17954  
 **Program / Section:** BSCE26  
