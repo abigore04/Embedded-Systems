@@ -12,37 +12,37 @@
 
 ## 0. Table of Contents
 
-- [[#1. Objectives|1. Objectives]]
-- [[#2. Theoretical Background|2. Theoretical Background]]
-  - [[#2.1 Actuation and Control|2.1 Actuation and Control]]
-  - [[#2.2 Electric Motor Principle|2.2 Electric Motor Principle]]
-  - [[#2.3 Back EMF and Inductive Load|2.3 Back EMF and Inductive Load]]
-  - [[#2.4 Servo Motor|2.4 Servo Motor]]
-  - [[#2.5 Stepper Motor and ULN2003 Driver|2.5 Stepper Motor and ULN2003 Driver]]
-  - [[#2.6 Start Signal|2.6 Start Signal]]
-- [[#3. Hardware & Configuration|3. Hardware & Configuration]]
-  - [[#3.1 System Components|3.1 System Components]]
-  - [[#3.2 Pin Mapping|3.2 Pin Mapping]]
-  - [[#3.3 Configuration Choices|3.3 Configuration Choices]]
-  - [[#3.4 Serial Configuration|3.4 Serial Configuration]]
-- [[#4. Implementation (full codes in the GitHub link below)|4. Implementation]]
-  - [[#4.1 General Program Logic|4.1 General Program Logic]]
-  - [[#4.2 Arduino State Machine|4.2 Arduino State Machine]]
-  - [[#4.3 Setup Function|4.3 Setup Function]]
-  - [[#4.4 Main Loop|4.4 Main Loop]]
-  - [[#4.5 Random Waiting and False Start|4.5 Random Waiting and False Start]]
-  - [[#4.6 Reaction Time Measurement|4.6 Reaction Time Measurement]]
-  - [[#4.7 Round Winner and Actuator Response|4.7 Round Winner and Actuator Response]]
-  - [[#4.8 Stepper Motor Control|4.8 Stepper Motor Control]]
-  - [[#4.9 Match End|4.9 Match End]]
-  - [[#4.10 GUI Communication and Data Handling|4.10 GUI Communication and Data Handling]]
-- [[#5. Results & Evidence|5. Results & Evidence]]
-  - [[#5.1 Circuit and Physical Setup|5.1 Circuit and Physical Setup]]
-  - [[#5.2 GUI and Serial Communication Evidence|5.2 GUI and Serial Communication Evidence]]
-  - [[#5.3 Reaction Time and Round Result Test|5.3 Reaction Time and Round Result Test]]
-  - [[#5.4 False Start Test|5.4 False Start Test]]
-- [[#7. Conclusion|7. Conclusion]]
-- [[#8. References|8. References]]
+- [1. Objectives](#1-objectives)
+- [2. Theoretical Background](#2-theoretical-background)
+  - [2.1 Actuation and Control](#21-actuation-and-control)
+  - [2.2 Electric Motor Principle](#22-electric-motor-principle)
+  - [2.3 Back EMF and Inductive Load](#23-back-emf-and-inductive-load)
+  - [2.4 Servo Motor](#24-servo-motor)
+  - [2.5 Stepper Motor and ULN2003 Driver](#25-stepper-motor-and-uln2003-driver)
+  - [2.6 Start Signal](#26-start-signal)
+- [3. Hardware & Configuration](#3-hardware--configuration)
+  - [3.1 System Components](#31-system-components)
+  - [3.2 Pin Mapping](#32-pin-mapping)
+  - [3.3 Configuration Choices](#33-configuration-choices)
+  - [3.4 Serial Configuration](#34-serial-configuration)
+- [4. Implementation (full codes in the GitHub link below)](#4-implementation-full-codes-in-the-github-link-below)
+  - [4.1 General Program Logic](#41-general-program-logic)
+  - [4.2 Arduino State Machine](#42-arduino-state-machine)
+  - [4.3 Setup Function](#43-setup-function)
+  - [4.4 Main Loop](#44-main-loop)
+  - [4.5 Random Waiting and False Start](#45-random-waiting-and-false-start)
+  - [4.6 Reaction Time Measurement](#46-reaction-time-measurement)
+  - [4.7 Round Winner and Actuator Response](#47-round-winner-and-actuator-response)
+  - [4.8 Stepper Motor Control](#48-stepper-motor-control)
+  - [4.9 Match End](#49-match-end)
+  - [4.10 GUI Communication and Data Handling](#410-gui-communication-and-data-handling)
+- [5. Results & Evidence](#5-results--evidence)
+  - [5.1 Circuit and Physical Setup](#51-circuit-and-physical-setup)
+  - [5.2 GUI and Serial Communication Evidence](#52-gui-and-serial-communication-evidence)
+  - [5.3 Reaction Time and Round Result Test](#53-reaction-time-and-round-result-test)
+  - [5.4 False Start Test](#54-false-start-test)
+- [7. Conclusion](#7-conclusion)
+- [8. References](#8-references)
 
 ---
 ## 1. Objectives
