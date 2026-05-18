@@ -1,0 +1,95 @@
+===================================
+IR Receiver Test Started
+Wiring: S/OUT -> D2, + -> 5V, - -> GND
+Press buttons 0 to 9 one by one.
+Do NOT hold the button. Press shortly.
+===================================
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x16, Raw-Data=0xE916FF00, 32 bits, LSB first, Gap=1577200us, Duration=67700us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x16
+RawData HEX: 0xE916FF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0xC, Raw-Data=0xF30CFF00, 32 bits, LSB first, Gap=2102550us, Duration=67700us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0xC
+RawData HEX: 0xF30CFF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x18, Raw-Data=0xE718FF00, 32 bits, LSB first, Gap=2133700us, Duration=67650us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x18
+RawData HEX: 0xE718FF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x5E, Raw-Data=0xA15EFF00, 32 bits, LSB first, Gap=1998400us, Duration=67750us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x5E
+RawData HEX: 0xA15EFF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x8, Raw-Data=0xF708FF00, 32 bits, LSB first, Gap=1875050us, Duration=67700us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x8
+RawData HEX: 0xF708FF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x1C, Raw-Data=0xE31CFF00, 32 bits, LSB first, Gap=1929050us, Duration=67700us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x1C
+RawData HEX: 0xE31CFF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x5A, Raw-Data=0xA55AFF00, 32 bits, LSB first, Gap=2136000us, Duration=67800us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x5A
+RawData HEX: 0xA55AFF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x42, Raw-Data=0xBD42FF00, 32 bits, LSB first, Gap=2240500us, Duration=67650us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x42
+RawData HEX: 0xBD42FF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x52, Raw-Data=0xAD52FF00, 32 bits, LSB first, Gap=2063600us, Duration=67750us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x52
+RawData HEX: 0xAD52FF00
+Bits: 32
+------------------------------
+
+----- IR BUTTON DETECTED -----
+Protocol=NEC Address=0x0, Command=0x4A, Raw-Data=0xB54AFF00, 32 bits, LSB first, Gap=2270900us, Duration=67700us
+Protocol number: 7
+Address HEX: 0x0
+Command HEX: 0x4A
+RawData HEX: 0xB54AFF00
+Bits: 32
+------------------------------
